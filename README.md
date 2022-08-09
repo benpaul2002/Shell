@@ -1,3 +1,4 @@
+#Shell
 The entire program is split into 4 different files - 
     1. func.h
         This file contains the definitions of major functions of the program like cd or ls.
