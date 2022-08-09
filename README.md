@@ -1,4 +1,4 @@
-#Shell
+# Shell
 The entire program is split into 4 different files - 
     1. func.h
         This file contains the definitions of major functions of the program like cd or ls.
@@ -12,7 +12,8 @@ The entire program is split into 4 different files -
 This program has path as a global string. path represents the current path in the execution of the program. So, in the beginning it would be same as the program's path. Doing cd or any other path-chaning command will change path accordingly.
 Whenever a process is executed in the background, it is added to an array of structs called bg. The struct stores pid, command name, status, and the job number.
 
-Major functions -
+Major functions - 
+
     1. cd
         Changes the path global string according to the arguments.
         cd - is implemented using the global string prevpath.
